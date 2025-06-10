@@ -1,6 +1,8 @@
 import java.util.*;
+import java.io.*;
+import java.util.Scanner;
 
-public class Zombie extends Unit {
+public class Zombie extends  {
 	Random r = new Random();
 	
 	public Zombie(String name, int pos) {

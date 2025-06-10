@@ -4,8 +4,7 @@ public class ZombieGame {
 
 	public static void main(String args[]) {
 		Zombie zom1 = new Zombie("좀비1", 7);
-		Zombie zom2 = new Zombie("좀비2", 15);
-		Hero hero = new Hero("조강홍", 1, 3);
+		
 		
 		System.out.println("좀비 게임을 시작합니다.!!!");
 		while(true) {
