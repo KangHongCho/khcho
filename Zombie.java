@@ -10,6 +10,7 @@ public class Zombie extends  {
 	}
 	public void move() {
 		int dir = r.nextInt(3);
+		System.out.System.out.println("");
 		if(dir==0) {
 			pos = pos - 1;
 			if(pos < 0) pos = 0;
